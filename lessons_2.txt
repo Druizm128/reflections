@@ -1,0 +1,49 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	git init : Is for starting a folder as a git repository.
+			When you start a git repository a .git file will be created but will be invisible. The only way to see it is with the comnmand git status -a
+
+	git status: Shows you what is actually in the directory. It can identify untracked files.
+
+
+
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+
+	You can add files
+	Only the contents added are committed to the repository
+	Allows you control to which changes are to be committed.
+	Allows you to keep commits small (one commit per logical change.)
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Because you can control what files are to be put in the stage area.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When you are experimenting with new features or when you are working to fix a bug.
+
+How do the diagrams help you visualize the branch structure?
+
+	They allow you to understand in which version are you working for, and prevent you from getting lost.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
+
+
+
+*** 
+
+git diff: 	allows you to compare the working directory with the staging area
+
+git diff a b: allows you to compare Staging Area and Repository
+
+gitt diff --staged : compares the stage with the last commit
